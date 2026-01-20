@@ -31,7 +31,7 @@ Work in Progress
      
   6) Monitor for Errors 
 
-## Example Output 
+### Example Output 
 
 ```
 Enter target (e.g., example.com): [+] Created directory: ./Active_Targets/www.nmap.org/2026-01-20_1653/recon
@@ -42,12 +42,12 @@ Enter target (e.g., example.com): [+] Created directory: ./Active_Targets/www.nm
 [-] No parameters found to test.
 ```
 
-## ⚙️ Debugging Notes:
+### ⚙️ Debugging Notes:
 
   - Print Debugging: Add additional print statements to check values of variables (i.e. before network requests and file writes)
   - Check Response Status: If you encounter an HTTP error, print the response.status_code and response.text for more context
 
-## ‼️ Potential Issues:
+### ‼️ Potential Issues:
 
   - Network Errors: "Request Failed" if URL is unreachable
   - HTML Parsing Errors: BeautifulSoup may fail to find links or forms resulting in an empty discovered_params dictionary
