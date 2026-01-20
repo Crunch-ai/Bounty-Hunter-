@@ -1,6 +1,6 @@
 # BountyHunter
   
-  BountyHunter automates Web Application scanning for Bug Bounty Hunting. 
+  BountyHunter automates Web Application scanning for Bug Bounty Hunting using python and Beautifulsoup. 
 
 ## Description
 
@@ -14,7 +14,25 @@ Work in Progress
   ```
   apt install beautifulsoup4
   ```
+  
+* Python
 
+  ```
+  apt install python3
+  ```
+  
+* PIP
+
+  ```
+  apt install python3-pip python3-dev
+  ```
+  
+* Verify Installation
+
+  ```
+  python3 --version
+  ```
+    
 ### Execution 
 
   1) Prepare the Environment:
